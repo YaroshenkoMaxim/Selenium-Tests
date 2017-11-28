@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="49.198" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.489" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
     <property name="java.vm.version" value="25.66-b18"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\user\Selenium-Tests\ucg"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\user\Selenium-Tests"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\user\Selenium-Tests\ucg"/>
+    <property name="user.dir" value="C:\Users\user\Selenium-Tests"/>
     <property name="java.runtime.version" value="1.8.0_66-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
@@ -64,14 +64,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testOpenHome" classname="ua.st.selenium.LoginTest" time="9.472">
-    <failure message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;YAROSHENKO&apos;, ip: &apos;192.168.164.25&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7432, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: fb8ccfb1-d506-4025-a50c-3fd0b99964b7" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+  <testcase name="testOpenHome" classname="ua.st.selenium.LoginTest" time="4.793">
+    <failure message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;YAROSHENKO&apos;, ip: &apos;192.168.164.25&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6920, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 14466545-b68a-4baa-b769-70b6f85fd039" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
 TypeError: this.curBrowser.contentBrowser is null
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
 System info: host: 'YAROSHENKO', ip: '192.168.164.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7432, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: fb8ccfb1-d506-4025-a50c-3fd0b99964b7
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6920, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14466545-b68a-4baa-b769-70b6f85fd039
 	at ua.st.selenium.LoginTest.testOpenHome(LoginTest.java:10)
 </failure>
     <system-out><![CDATA[...
@@ -79,43 +79,28 @@ Session ID: fb8ccfb1-d506-4025-a50c-3fd0b99964b7
 ...
 
 ]]></system-out>
-    <system-err><![CDATA[1511868529990	geckodriver	INFO	Listening on 127.0.0.1:4056
-1511868530623	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1511868535624	Marionette	INFO	Enabled via --marionette
+    <system-err><![CDATA[1511896788165	geckodriver	INFO	Listening on 127.0.0.1:1449
+1511896789582	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511896799587	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
-[Child 1880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1511868551176	Marionette	INFO	Listening on port 54262
-1511868552463	Marionette	DEBUG	Register listener.js for window 4294967297
-ноя 28, 2017 1:29:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[Parent 6920, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511896819233	Marionette	INFO	Listening on port 56891
+1511896820734	Marionette	DEBUG	Register listener.js for window 4294967297
+ноя 28, 2017 9:20:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1511868557430	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1511868558095	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1511868558095	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1511868559950	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://sravni.ua/"
+1511896821432	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511896821973	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511896821973	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511896823166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://sravni.ua/"
 Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
 GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1123:3
 
-1511868565129	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+1511896826044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 7432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="ua.st.selenium.LoginTest" time="17.684">
-    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;YAROSHENKO&apos;, ip: &apos;192.168.164.25&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_66&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7432, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: fb8ccfb1-d506-4025-a50c-3fd0b99964b7" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Failed to decode response from marionette
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'YAROSHENKO', ip: '192.168.164.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7432, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: fb8ccfb1-d506-4025-a50c-3fd0b99964b7
-</failure>
-    <system-err><![CDATA[Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
-[Child 8220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 8220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
-[Child 3536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 3536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 ]]></system-err>
   </testcase>
 </testsuite>
