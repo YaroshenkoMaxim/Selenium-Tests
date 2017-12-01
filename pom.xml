@@ -94,7 +94,7 @@
       <id>firefox</id>
       <properties>
         <capabilities>/firefox.capabilities</capabilities>
-		<site.url>http://sravni.ua</site.url>
+		<site.url>http://price.ua</site.url>
       </properties>
       <activation>
         <activeByDefault>true</activeByDefault>

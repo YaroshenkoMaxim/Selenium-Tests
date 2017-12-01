@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import ru.stqa.selenium.factory.WebDriverPool;
+import ua.st.selenium.applogic.ApplicationManager;
 
 /**
  * Base class for TestNG-based test classes
@@ -22,6 +23,8 @@ public class TestNgTestBase {
   protected static Capabilities capabilities;
 
   protected WebDriver driver;
+  
+  protected ApplicationManager app;
 
   @BeforeSuite
   public void initTestSuite() throws IOException {
@@ -31,6 +34,7 @@ public class TestNgTestBase {
       gridHubUrl = new URL(config.getProperty("grid.url"));
     }
     capabilities = config.getCapabilities();
+    app = new ApplicationManager();
   }
 
   @BeforeMethod
