@@ -6,7 +6,7 @@
       <class name="ua.st.selenium.LoginTest">
         <methods>
           <include name="initTestSuite"/>
-          <include name="testOpenHome"/>
+          <include name="testoginOk"/>
           <include name="tearDown"/>
           <include name="initWebDriver"/>
         </methods>

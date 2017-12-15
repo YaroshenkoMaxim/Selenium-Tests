@@ -1,7 +1,3 @@
-/application.properties
-/chrome.capabilities
-/debug.properties
-/firefox.capabilities
 /htmlunit.capabilities
 /ie.capabilities
 /opera.capabilities

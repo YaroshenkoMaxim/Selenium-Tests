@@ -1,17 +1,36 @@
 package ua.st.selenium.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-public class LoginPage extends Page
+public class LoginPage //extends Page
 {
-
-	public LoginPage(WebDriver webDriver)
+	WebDriver driver;	
+	
+	public LoginPage(WebDriver driver)
 	{
-		super(webDriver);
-
+		//super(driver);
+		this.driver = driver;
 	}
 	
+	public void openLoginPage()
+	{
+		driver.get("http://price.ua/user/login");
+	}
 	
+	public WebElement getEmailField()
+	{
+		return driver.findElement(By.id("LoginForm_username"));
+	}
 	
+	public WebElement getPasswordField()
+	{
+		return driver.findElement(By.id("LoginForm_password"));
+	}
 	
+	public WebElement getLoginButton()
+	{
+		return driver.findElement(By.className("btn btn-grey fbold"));
+	}
 }
