@@ -23,6 +23,12 @@ public class LoginTest extends TestNgTestBase
 		
 		User user = new User().setEmail("test02081701@yopmail.fr").setPassword("123123123");
 		app.getUserHelper().loginAs(user);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		//assertTrue(app.getUserHelper().isLoggedInAs(user));
 	}
 }

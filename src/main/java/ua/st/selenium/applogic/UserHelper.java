@@ -19,7 +19,7 @@ public class UserHelper
 		loginPage.openLoginPage();
 		loginPage.getEmailField().sendKeys(user.getEmail());
 		loginPage.getPasswordField().sendKeys(user.getPassword());
-		//loginPage.getLoginButton().click();
+		loginPage.getLoginButton().click();
 	}
 	
 	public void logout()

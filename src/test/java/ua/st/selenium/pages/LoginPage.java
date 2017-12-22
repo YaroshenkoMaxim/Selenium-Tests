@@ -31,6 +31,6 @@ public class LoginPage //extends Page
 	
 	public WebElement getLoginButton()
 	{
-		return driver.findElement(By.className("btn btn-grey fbold"));
+		return driver.findElement(By.xpath("//a[contains(@class,'fbold')]"));
 	}
 }
