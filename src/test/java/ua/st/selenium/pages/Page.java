@@ -5,17 +5,19 @@ import org.openqa.selenium.WebDriver;
 /**
  * Abstract class representation of a Page in the UI. Page object pattern
  */
-public abstract class Page {
-
+public abstract class Page
+{
   protected WebDriver driver;
+  protected PageManager pages;
 
   /*
    * Constructor injecting the WebDriver interface
    * 
    * @param webDriver
    */
-  public Page(WebDriver driver) {
-    this.driver = driver;
+  public Page(PageManager pages) {
+	this.pages = pages;
+    driver = pages.getWebDriver();
   }
 
   public String getTitle() {

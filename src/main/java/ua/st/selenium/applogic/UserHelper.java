@@ -2,24 +2,26 @@ package ua.st.selenium.applogic;
 
 import ua.st.selenium.model.User;
 import ua.st.selenium.pages.LoginPage;
+import ua.st.selenium.pages.Page;
+import ua.st.selenium.pages.PageManager;
 
-public class UserHelper 
+public class UserHelper extends DriverBasedHelper
 {
 	private User user;
 	private ApplicationManager manager;
 	
 	public UserHelper(ApplicationManager manager)
 	{
+		super(manager.getWebDriver());
 		this.manager = manager;
 	}
 	
 	public void loginAs(User user)
 	{
-		LoginPage loginPage = new LoginPage(manager.getWebDriver());
-		loginPage.openLoginPage();
-		loginPage.getEmailField().sendKeys(user.getEmail());
-		loginPage.getPasswordField().sendKeys(user.getPassword());
-		loginPage.getLoginButton().click();
+		pages.loginPage.openLoginPage()
+				.setEmailField(user.getEmail())
+				.setPasswordField(user.getPassword())
+				.clickLoginButton();
 	}
 	
 	public void logout()
