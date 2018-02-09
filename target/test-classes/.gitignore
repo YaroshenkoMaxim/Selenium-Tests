@@ -1,11 +1,1 @@
-/application.properties
-/chrome.capabilities
-/debug.properties
-/firefox.capabilities
-/htmlunit.capabilities
-/ie.capabilities
-/opera.capabilities
-/phantomjs.capabilities
-/safari.capabilities
-/testng.xml
 /ua/

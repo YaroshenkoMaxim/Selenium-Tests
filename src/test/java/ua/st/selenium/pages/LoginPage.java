@@ -42,10 +42,9 @@ public class LoginPage extends Page
 		return this;
 	}
 	
-	public LoginPage clickLoginButton()
+	public void clickLoginButton()
 	{
 		loginButton.click();
-		return this;
 	}
 	
 	/*public WebElement getEmailField()
