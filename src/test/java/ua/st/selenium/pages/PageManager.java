@@ -7,14 +7,16 @@ public class PageManager
 {
 	private WebDriver driver;
 	
+	public AnyPage anyPage;
 	public LoginPage loginPage;
-	public Header header;
+	//public CabinetUser cabinetUser;
 	
 	public PageManager(WebDriver driver)
 	{
 		this.driver = driver;
+		anyPage = initElements(new AnyPage(this));
 		loginPage = initElements(new LoginPage(this));
-		header = initElements(new Header(this)); 
+		//cabinetUser = initElements(new CabinetUser(this));
 	}
 	
 	private <T extends Page> T initElements(T page)

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Tests" class="show-methods passed suite-Tests"> (show)</a> <!-- show-methods passed suite-Tests -->
                     </span>
                     <div class="method-list-content passed suite-Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ua.st.selenium.LoginTest" hash-for-method="testoginNotOkInvalidEmail">testoginNotOkInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ua.st.selenium.LoginTest" hash-for-method="testoginOk">testoginOk</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testoginNotOkInvalidEmail">
+                  </a> <!-- testoginNotOkInvalidEmail -->
+                  <span class="method-name">testoginNotOkInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testoginOk">
                   </a> <!-- testoginOk -->
                   <span class="method-name">testoginOk</span>
@@ -141,8 +153,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
-  &lt;test name=&quot;Test1&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;ua.st.selenium.LoginTest&quot;/&gt;
     &lt;/classes&gt;
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testoginOk')
 data.setCell(0, 2, 'ua.st.selenium.LoginTest')
-data.setCell(0, 3, 13895);
+data.setCell(0, 3, 57059);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testoginNotOkInvalidEmail')
+data.setCell(1, 2, 'ua.st.selenium.LoginTest')
+data.setCell(1, 3, 5003);
 window.suiteTableData['Tests']= { tableData: data, tableDiv: 'times-div-Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Tests">
               </div> <!-- times-div-Tests -->
             </div> <!-- times-div -->
@@ -226,15 +242,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">initWebDriver</span>
-                <span class="method-start">64 ms</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testoginNotOkInvalidEmail</span>
+                <span class="method-start">10419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">15427 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testoginOk</span>
-                <span class="method-start">85451 ms</span>
+                <span class="method-start">15449 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100374 ms</span>
+                <span class="method-start">72530 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ua.st.selenium.LoginTest">
+      <class name="ua.st.selenium.SampleTestNgTest">
         <methods>
+          <include name="testHomePageHasAHeader"/>
           <include name="initTestSuite"/>
-          <include name="testoginOk"/>
           <include name="tearDown"/>
           <include name="initWebDriver"/>
         </methods>
-      </class> <!-- ua.st.selenium.LoginTest -->
+      </class> <!-- ua.st.selenium.SampleTestNgTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

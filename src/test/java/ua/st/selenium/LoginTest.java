@@ -21,7 +21,7 @@ public class LoginTest extends TestNgTestBase
 	{
 		//driver.get(baseUrl + "/user/login");
 		
-		User user = new User().setEmail("test02081701@yopmail.fr").setPassword("123123123");
+		User user = new User().setLogin("test02081701").setEmail("test02081701@yopmail.fr").setPassword("123123123");
 		app.getUserHelper().loginAs(user);
 		try {
 			Thread.sleep(5000);
@@ -29,7 +29,8 @@ public class LoginTest extends TestNgTestBase
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//assertTrue(app.getUserHelper().isLoggedInAs(user));
+		
+		assertTrue(app.getUserHelper().isLoggedInAs(user));
 	}
 	
 	@Test
@@ -38,7 +39,7 @@ public class LoginTest extends TestNgTestBase
 		//driver.get(baseUrl + "/user/login");
 		
 		User user = new User().setEmail("test02081701yopmail.fr").setPassword("123123123");
-		app.getUserHelper().loginAs(user);
+		//app.getUserHelper().loginAs(user);
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {

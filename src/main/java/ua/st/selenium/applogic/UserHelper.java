@@ -18,6 +18,8 @@ public class UserHelper extends DriverBasedHelper
 	
 	public void loginAs(User user)
 	{
+		this.user = user;
+		
 		pages.loginPage.openLoginPage()
 				.setEmailField(user.getEmail())
 				.setPasswordField(user.getPassword())
@@ -31,7 +33,7 @@ public class UserHelper extends DriverBasedHelper
 	
 	public boolean isLoggedIn()
 	{
-		return user != null;
+		return pages.loginPage.getHeaderUserText().equals(user.getLogin());
 	}
 	
 	public boolean isLoggedInAs(User user)

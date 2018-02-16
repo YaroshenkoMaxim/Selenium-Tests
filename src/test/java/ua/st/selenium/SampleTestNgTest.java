@@ -10,16 +10,17 @@ import ua.st.selenium.pages.HomePage;
 
 public class SampleTestNgTest extends TestNgTestBase {
 
-  private HomePage homepage;
+  //private HomePage homepage;
 
-  @BeforeMethod
+  /*@BeforeMethod
   public void initPageObjects() {
     homepage = PageFactory.initElements(driver, HomePage.class);
-  }
+  }*/
 
   @Test
   public void testHomePageHasAHeader() {
-    driver.get(baseUrl);
-    Assert.assertFalse("".equals(homepage.header.getText()));
+    //driver.get(baseUrl);
+	  driver.get("http://price.ua");
+    //Assert.assertFalse("".equals(homepage.header.getText()));
   }
 }

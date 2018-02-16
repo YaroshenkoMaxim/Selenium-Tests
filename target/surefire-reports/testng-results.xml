@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="99302" started-at="2018-01-03T17:37:42Z" finished-at="2018-01-03T17:39:22Z">
+  <suite name="Tests" duration-ms="72482" started-at="2018-02-16T17:15:05Z" finished-at="2018-02-16T17:16:18Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="99302" started-at="2018-01-03T17:37:42Z" finished-at="2018-01-03T17:39:22Z">
+    <test name="Test1" duration-ms="72482" started-at="2018-02-16T17:15:05Z" finished-at="2018-02-16T17:16:18Z">
       <class name="ua.st.selenium.LoginTest">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ua.st.selenium.LoginTest@783e6358]" name="initTestSuite" is-config="true" duration-ms="47" started-at="2018-01-03T19:37:42Z" finished-at="2018-01-03T19:37:42Z">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initTestSuite" is-config="true" duration-ms="26" started-at="2018-02-16T19:15:05Z" finished-at="2018-02-16T19:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@783e6358]" name="initWebDriver" is-config="true" duration-ms="85387" started-at="2018-01-03T19:37:42Z" finished-at="2018-01-03T19:39:08Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="10366" started-at="2018-02-16T19:15:05Z" finished-at="2018-02-16T19:15:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testoginOk()[pri:0, instance:ua.st.selenium.LoginTest@783e6358]" name="testoginOk" duration-ms="13895" started-at="2018-01-03T19:39:08Z" finished-at="2018-01-03T19:39:22Z">
+        <test-method status="PASS" signature="testoginNotOkInvalidEmail()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginNotOkInvalidEmail" duration-ms="5003" started-at="2018-02-16T19:15:16Z" finished-at="2018-02-16T19:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testoginNotOkInvalidEmail -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="22" started-at="2018-02-16T19:15:21Z" finished-at="2018-02-16T19:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testoginOk()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginOk" duration-ms="57059" started-at="2018-02-16T19:15:21Z" finished-at="2018-02-16T19:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testoginOk -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ua.st.selenium.LoginTest@783e6358]" name="tearDown" is-config="true" duration-ms="1192" started-at="2018-01-03T19:39:23Z" finished-at="2018-01-03T19:39:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="435" started-at="2018-02-16T19:16:18Z" finished-at="2018-02-16T19:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
