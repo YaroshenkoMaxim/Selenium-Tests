@@ -28,21 +28,21 @@ public class UserHelper extends DriverBasedHelper
 	
 	public void logout()
 	{
-		this.user = null;
+		pages.cabinetUser.clickLogoutLink();
 	}
 	
 	public boolean isLoggedIn()
 	{
-		return pages.loginPage.getHeaderUserText().equals(user.getLogin());
+		return !pages.loginPage.getHeaderUserText().equals("¬ход");
 	}
 	
 	public boolean isLoggedInAs(User user)
 	{
-		return isLoggedIn() && this.user.getEmail().equals(user.getEmail());
+		return isLoggedIn() && this.user.getLogin().equals(user.getLogin());
 	}
 	
 	public boolean isNotLoggedIn()
 	{
-		return user != null;
+		return !isLoggedIn();
 	}
 }

@@ -9,14 +9,14 @@ public class PageManager
 	
 	public AnyPage anyPage;
 	public LoginPage loginPage;
-	//public CabinetUser cabinetUser;
+	public CabinetUser cabinetUser;
 	
 	public PageManager(WebDriver driver)
 	{
 		this.driver = driver;
 		anyPage = initElements(new AnyPage(this));
 		loginPage = initElements(new LoginPage(this));
-		//cabinetUser = initElements(new CabinetUser(this));
+		cabinetUser = initElements(new CabinetUser(this));
 	}
 	
 	private <T extends Page> T initElements(T page)

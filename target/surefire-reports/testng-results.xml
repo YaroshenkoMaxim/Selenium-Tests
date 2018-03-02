@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="72482" started-at="2018-02-16T17:15:05Z" finished-at="2018-02-16T17:16:18Z">
+  <suite name="Tests" duration-ms="86517" started-at="2018-02-27T16:30:07Z" finished-at="2018-02-27T16:31:34Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="72482" started-at="2018-02-16T17:15:05Z" finished-at="2018-02-16T17:16:18Z">
+    <test name="Test1" duration-ms="86517" started-at="2018-02-27T16:30:07Z" finished-at="2018-02-27T16:31:34Z">
       <class name="ua.st.selenium.LoginTest">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initTestSuite" is-config="true" duration-ms="26" started-at="2018-02-16T19:15:05Z" finished-at="2018-02-16T19:15:05Z">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initTestSuite" is-config="true" duration-ms="87" started-at="2018-02-27T18:30:07Z" finished-at="2018-02-27T18:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="10366" started-at="2018-02-16T19:15:05Z" finished-at="2018-02-16T19:15:16Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="56834" started-at="2018-02-27T18:30:07Z" finished-at="2018-02-27T18:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testoginNotOkInvalidEmail()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginNotOkInvalidEmail" duration-ms="5003" started-at="2018-02-16T19:15:16Z" finished-at="2018-02-16T19:15:21Z">
+        <test-method status="PASS" signature="testoginNotOkInvalidEmail()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginNotOkInvalidEmail" duration-ms="5101" started-at="2018-02-27T18:31:04Z" finished-at="2018-02-27T18:31:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testoginNotOkInvalidEmail -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="22" started-at="2018-02-16T19:15:21Z" finished-at="2018-02-16T19:15:21Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="initWebDriver" is-config="true" duration-ms="8819" started-at="2018-02-27T18:31:09Z" finished-at="2018-02-27T18:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testoginOk()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginOk" duration-ms="57059" started-at="2018-02-16T19:15:21Z" finished-at="2018-02-16T19:16:18Z">
+        <test-method status="PASS" signature="testoginOk()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="testoginOk" duration-ms="15718" started-at="2018-02-27T18:31:18Z" finished-at="2018-02-27T18:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testoginOk -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="435" started-at="2018-02-16T19:16:18Z" finished-at="2018-02-16T19:16:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ua.st.selenium.LoginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="2022" started-at="2018-02-27T18:31:34Z" finished-at="2018-02-27T18:31:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

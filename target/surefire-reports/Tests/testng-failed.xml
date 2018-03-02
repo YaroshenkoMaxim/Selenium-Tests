@@ -5,8 +5,10 @@
     <classes>
       <class name="ua.st.selenium.LoginTest">
         <methods>
+          <include name="testoginNotOkInvalidEmail"/>
           <include name="initTestSuite"/>
           <include name="testoginOk"/>
+          <include name="mayBeLogout"/>
           <include name="tearDown"/>
           <include name="initWebDriver"/>
         </methods>

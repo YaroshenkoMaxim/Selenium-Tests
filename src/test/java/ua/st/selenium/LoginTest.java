@@ -31,6 +31,7 @@ public class LoginTest extends TestNgTestBase
 		}
 		
 		assertTrue(app.getUserHelper().isLoggedInAs(user));
+		app.getUserHelper().logout();
 	}
 	
 	@Test

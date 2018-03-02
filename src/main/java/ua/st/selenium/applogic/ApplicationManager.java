@@ -22,6 +22,8 @@ public class ApplicationManager
 	{
 		this.driver = driver;
 		userHelper = new UserHelper(this);
+		
+		driver.get("http://price.ua/");
 	}
 	
 	public UserHelper getUserHelper()
