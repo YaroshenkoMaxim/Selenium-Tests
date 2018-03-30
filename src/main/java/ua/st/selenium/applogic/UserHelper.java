@@ -1,9 +1,13 @@
 package ua.st.selenium.applogic;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
 import ua.st.selenium.model.User;
 import ua.st.selenium.pages.LoginPage;
 import ua.st.selenium.pages.Page;
-import ua.st.selenium.pages.PageManager;
 
 public class UserHelper extends DriverBasedHelper
 {
@@ -44,5 +48,15 @@ public class UserHelper extends DriverBasedHelper
 	public boolean isNotLoggedIn()
 	{
 		return !isLoggedIn();
+	}
+	
+	public ArrayList getErrorMessages()
+	{
+		ArrayList l = new ArrayList();
+		
+		for (WebElement el: pages.loginPage.getErrorMessages())
+			l.add(el.getText());
+		
+		return l;
 	}
 }

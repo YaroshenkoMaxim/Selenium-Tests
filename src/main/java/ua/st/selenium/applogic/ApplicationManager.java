@@ -15,6 +15,7 @@ import ua.st.selenium.SuiteConfiguration;
 public class ApplicationManager
 {
 	private UserHelper userHelper;
+	private NavigationHelper navigationHelper;
 	
 	private WebDriver driver;
 	
@@ -22,13 +23,17 @@ public class ApplicationManager
 	{
 		this.driver = driver;
 		userHelper = new UserHelper(this);
-		
-		driver.get("http://price.ua/");
+		navigationHelper = new NavigationHelper(this);
 	}
 	
 	public UserHelper getUserHelper()
 	{
 		return userHelper;
+	}
+	
+	public NavigationHelper getNavigationHelper()
+	{
+		return navigationHelper;
 	}
 		
 	public WebDriver getWebDriver()

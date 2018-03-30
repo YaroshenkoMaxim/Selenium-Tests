@@ -3,6 +3,8 @@ package ua.st.selenium.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import ua.st.selenium.applogic.PageManager;
+
 public class CabinetUser extends AnyPage
 {
 	public CabinetUser(PageManager pages)

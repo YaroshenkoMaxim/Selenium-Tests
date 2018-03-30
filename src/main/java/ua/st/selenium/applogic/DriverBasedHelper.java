@@ -3,7 +3,6 @@ package ua.st.selenium.applogic;
 import org.openqa.selenium.WebDriver;
 
 import ua.st.selenium.pages.Page;
-import ua.st.selenium.pages.PageManager;
 
 public class DriverBasedHelper
 {

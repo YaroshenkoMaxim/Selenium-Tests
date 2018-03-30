@@ -1,9 +1,14 @@
 package ua.st.selenium.pages;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import ua.st.selenium.applogic.PageManager;
 
 public class LoginPage extends AnyPage
 {
@@ -30,6 +35,9 @@ public class LoginPage extends AnyPage
 	@FindBy(xpath = "//a[contains(@class,'fbold')]")
 	private WebElement loginButton;	
 	
+	@FindBy(xpath = "//div[@class='error-text' and not(@style)]")
+	private List<WebElement> errorMessages;
+	
 	public LoginPage setEmailField(String text)
 	{
 		emailField.sendKeys(text);
@@ -45,6 +53,11 @@ public class LoginPage extends AnyPage
 	public void clickLoginButton()
 	{
 		loginButton.click();
+	}
+	
+	public List<WebElement> getErrorMessages()
+	{
+		return errorMessages;
 	}
 	
 	/*public WebElement getEmailField()
