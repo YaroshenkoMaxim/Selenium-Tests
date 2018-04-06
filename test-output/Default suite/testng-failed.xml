@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ua.st.selenium.RegionTest">
+      <class name="ua.st.selenium.LoginTest">
         <methods>
-          <include name="initTestSuite"/>
-          <include name="changeRegionOnMain"/>
-          <include name="tearDown"/>
-          <include name="initWebDriver"/>
+          <include name="testLoginFirmOk"/>
+          <include name="testLoginUserNotOkEmptyEmailAndPassword"/>
+          <include name="testLoginUserOk"/>
+          <include name="testLoginUserNotOkInvalidEmail"/>
+          <include name="mayBeLogout"/>
         </methods>
-      </class> <!-- ua.st.selenium.RegionTest -->
+      </class> <!-- ua.st.selenium.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

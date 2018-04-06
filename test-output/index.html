@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-1402738371\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-832322799\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ua.st.selenium.RegionTest" hash-for-method="changeRegionOnMain">changeRegionOnMain</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ua.st.selenium.RegionTest" hash-for-method="changeRegionInFilterOnCatalogKNU">changeRegionInFilterOnCatalogKNU</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ua.st.selenium.RegionTest" hash-for-method="changeRegionInHeaderOnMain">changeRegionInHeaderOnMain</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="changeRegionOnMain">
-                  </a> <!-- changeRegionOnMain -->
-                  <span class="method-name">changeRegionOnMain</span>
+                  <a name="changeRegionInFilterOnCatalogKNU">
+                  </a> <!-- changeRegionInFilterOnCatalogKNU -->
+                  <span class="method-name">changeRegionInFilterOnCatalogKNU</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeRegionInHeaderOnMain">
+                  </a> <!-- changeRegionInHeaderOnMain -->
+                  <span class="method-name">changeRegionInHeaderOnMain</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-1402738371\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-832322799\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'changeRegionOnMain')
+data.setCell(0, 1, 'changeRegionInHeaderOnMain')
 data.setCell(0, 2, 'ua.st.selenium.RegionTest')
-data.setCell(0, 3, 34934);
+data.setCell(0, 3, 28945);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'changeRegionInFilterOnCatalogKNU')
+data.setCell(1, 2, 'ua.st.selenium.RegionTest')
+data.setCell(1, 3, 6);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,15 +242,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">initWebDriver</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">changeRegionOnMain</span>
-                <span class="method-start">6732 ms</span>
+                <span class="method-name">changeRegionInFilterOnCatalogKNU</span>
+                <span class="method-start">12616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">12623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changeRegionInHeaderOnMain</span>
+                <span class="method-start">14006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41722 ms</span>
+                <span class="method-start">42998 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

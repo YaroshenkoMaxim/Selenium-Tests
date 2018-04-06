@@ -34,13 +34,14 @@ public class TestNgTestBase
 	      gridHubUrl = new URL(config.getProperty("grid.url"));
 	    }
 	    capabilities = config.getCapabilities();
-	  }
-	
-	  @BeforeMethod
-	  public void initWebDriver() {
 	    driver = WebDriverPool.DEFAULT.getDriver(gridHubUrl, capabilities);
 	    app = new ApplicationManager(driver);
 	  }
+	
+	  /*@BeforeMethod
+	  public void initWebDriver() {
+	    
+	  }*/
 	
 	  @AfterSuite(alwaysRun = true)
 	  public void tearDown() {
